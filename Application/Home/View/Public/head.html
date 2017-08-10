@@ -1,0 +1,220 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+    <head>
+	    <title>
+		    艺融创科技有限公司
+	    </title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1"/>
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=0.5,maximum-scale=2.0,user-scalable=yes"/>
+		<link rel="stylesheet" href="__CSS__/scripts/fancybox/fancybox.css" media="screen" />
+	    <link type="text/css" rel="stylesheet" href="__CSS__/styles/reset_html5.css" media="screen" />
+	    <link type="text/css" rel="stylesheet" href="__CSS__/styles/bootstrap.css" media="screen" />
+	    <link type="text/css" rel="stylesheet" href="__CSS__/styles/mediaBase.css" media="screen" />
+		<link rel="stylesheet" type="text/css" href="__CSS__/styles/util.css" media="screen">
+		<link rel="stylesheet" type="text/css" href="__CSS__/style.css" media="screen">
+        <link rel="stylesheet" type="text/css" href="__CSS__/swiper-3.4.2.min.css">
+		<script type="text/javascript" src="__JS__/scripts/jquery-1.10.2.min.js"></script>
+		<script type="text/javascript" src="__JS__/scripts/device.min.js"></script>
+	    <!-- <script type="text/javascript" src="__JS__/scripts/modernizr.2.7.1.js"></script>   -->
+	    <script type="text/javascript" src="__JS__/scripts/jquery.carouFredSel-6.2.0-packed.js"></script>
+	    <script type="text/javascript" src="__JS__/scripts/image-scale.min.js"></script>
+	    <script type="text/javascript" src="__JS__/scripts/bootstrap.min.js"></script>
+	    <script type="text/javascript" src="__JS__/scripts/util.js"></script>
+	    <!-- <script type="text/javascript" src="__JS__/scripts/ckplayer/ckplayer/ckplayer.js"></script> -->
+	    <script type="text/javascript" src="__JS__/scripts/fancybox/fancybox.js"></script>
+        <script type="text/javascript" src="__JS__/jquery.bxslider.min.js"></script>
+        <script type="text/javascript" src="__JS__/swiper-3.4.2.min.js"></script>
+        <script type="text/javascript" src="__JS__/unslider.min.js"></script>
+	    <!-- <script type="text/javascript" src="__JS__/easySlider.js"></script> -->
+		<!-- <script type="text/javascript" src="__JS__/jquery-1.12.2.min.js"></script> -->
+		<!-- <script type="text/javascript" src="__JS__/jquery1.42.min.js"></script> -->
+		<!-- <script type="text/javascript" src="__JS__/jquery.SuperSlide.2.1.1.js"></script> -->
+		<!-- <script type="text/javascript" src="__JS__/jia.js"></script> -->
+    </head>
+	<body>
+
+<div class="top">
+    <div class="container">
+        <div class="top-l">
+          <a href="<?php echo U('Index/index');?>">首&nbsp;&nbsp;页</a>
+          <foreach name="nav" item="list">
+            <a href="<?php echo U('Home/'.$list['link'].'/id/'.$list['id']);?>" target="_blank">{$list.title}</a>
+          </foreach>
+        </div>
+        <!-- <div class="top-r">
+            <div class="top-r-search">
+                <input type="text" style="display:none;" />
+                    <span>
+                        <input type="text" id="searchkey"  name="">
+                        <i class="ilefts"></i>
+                        <i class="irights"></i>
+                    </span>
+                <a href="javascript:void(0)" onclick="Search();" class="seaarchBtn"></a>
+                <div class="topBox">
+                    <a href="javascript:void(0)" class="login">登录</a>
+                    <a href="javascript:void(0)" class="register">注册</a>
+                </div>
+                
+                <a href="javascript:;" class="llhyn" style="color: #fff;">欢迎您！</a>&nbsp;&nbsp;&nbsp;<a style="color: #fff;" class="llhyn" href="index-2.html">退出</a>
+                <a href="#2" class="top-a-line" style="display:none;">&nbsp;</a>
+                <a href="en/index.html" class="enLinks">English</a>
+            </div>
+            <div class="shares">
+                <div class="jiathis_style_32x32">
+                    <a class="jiathis_button_weixin" ></a>
+                    <a class="jiathis_button_tsina"></a>
+                </div>
+                <div class="clear"></div>
+                <script type="text/javascript" src="__JS__/jia.js" charset="utf-8"></script>
+            </div>
+        </div> -->
+    </div>
+</div>		
+<div class="nav">
+    <div class="container navhead">
+         <a href="index-2.html" id="nav_A4" target="_blank" class="logo"><img alt="" src="__UP__/<?php echo $company['logo'];?>" width="200" height="60" /></a>
+
+        <ul id="nav">
+          <volist name="ser" id="list">
+			<li class="mainlevel">
+				<a href="<?php echo U('Home/Service/services/id/'.$list['id']);?>">{$list.title}</a>
+				
+			</li>
+          </volist>
+        </ul>
+        <div class="res-nav" style="display: none;">
+            <a href="javascript:void(0)" class="nav-btn"></a>
+        </div>
+        <div class="res-list" style="display: none;">
+            <div class="nav-firstP">
+                <a href="conleft/in_1069.html" target="_blank">关于我们</a><a href="conleft/in_1076.html" target="_blank">新闻</a><a href="conleft/in_1087.html" target="_blank">联系我们</a>
+                 <a href="en/index.html" class="fright" style="float:right;">EN</a>
+            </div>
+            <volist name="service" id="list">
+                <div class="res-list-fr"><i></i>
+                    <a href="#" class="a-01">{$list.title}</a>
+                    <div class="inset-list" style="display: none;">
+                      <ul>
+                        <volist name=":pidType($list['id'])" id="list">
+                          <li><a href="<?php echo U('Home/Service/services/id/'.$list['id']);?>" class="allfb">{$list.title}</a></li>
+                        </volist>
+                     </ul>
+                    </div>
+                </div> 
+            </volist>
+        </div>
+        
+    </div>
+</div>
+
+<div class="list-nav " style="display: none;">
+    <div class="container ">
+        <div class="list-nav-cont">
+            <div class="nav-cont-l">
+                <dl>
+                    <dt><a href="content/index9c47.html?nodeid=941&amp;page=ContentPage&amp;contentid=5469"><img src="__UP__/upload/images/20163/20163xiezong.jpg" width="220" height="80" /></a></dt>
+                    <dd><?php echo $ser1['content'];?></dd>
+                </dl>
+            </div>
+            <div class="nav-cont-r">
+            <ul>
+               <volist name="service1" id="list">
+                 <volist name=":pidType($list['id'])" id="list1">
+                     <li><a href="<?php echo U('Home/Service/services/id/'.$list1['id']);?>" title="">{$list1.title}</a></li>
+                 </volist>
+               </volist>
+            </ul>
+            
+            </div>
+        </div>
+    </div>
+</div>
+<volist name="service2" id="list">
+    <div class="list-nav " style="display: none;">
+            <div class="container">
+                <div class="list-nav-cont">
+                   <div class="nav-cont-r">
+                   <volist name=":pidType($list['id'])" id="list1">
+                        <ul> 
+                             <li class="li01"><a href="<?php echo U('Home/Service/services/id/'.$list1['id']);?>"><span>{$list1.title}</span></a></li>
+                             <volist name=":pidType($list1['id'])" id="list2">
+                                <li><a href="<?php echo U('Home/Service/services/id/'.$list2['id']);?>" title="">{$list2.title}</a></li>
+                             </volist>
+                        </ul>
+                    </volist>
+                </div>
+            </div>
+        </div>
+    </div>
+</volist>    
+    
+
+
+<script type="text/javascript">
+
+// $(".mainlevel").mouseover(function(){
+// 		$(this).find(".childul").slideDown("slow");
+//         $(this).siblings().find(".childul").hide();
+//         $('#banner').animate({"top":"320px"},200);
+     	   	  
+// 	});
+// $('.childul').hover(function(){
+//         $('#banner').animate({"top":"320px"},200);		
+// 	},function(){
+//         $(this).fadeOut('slow');
+//         $('#banner').animate({"top":"110px"},200);       
+//     });
+
+    $(" .list-nav").each(function (index) {
+        $(this).addClass("list-s0" + (index + 1));
+        $(this).addClass("sames0" + (index + 1));
+
+        if (index > 1) {
+            $(this).addClass("Solution_pop");
+        }
+    });
+    $(".list-s04 .zhihui:last").css("margin-right", "0");
+    $(".list-s05 .zhihui:last").css("margin-right", "0");
+    var isdl = "f";
+    if (isdl == "f") {
+        $(".llhyn").hide();
+    } else {
+        $(".login").hide();
+        $(".register").hide();
+    }
+
+
+</script>
+<script type="text/javascript">
+
+    // document.getElementById('searchkey').onkeypress = function (ev) {
+
+    //     var oEvent = ev || event;
+    //     var keycode = oEvent.keyCode || oEvent.which;
+
+    //     if (keycode == 13) {
+            
+    //         Search();
+    //         return false;
+    //     }
+    //     else {
+    //         return true;
+    //     }
+    // }
+    // function Search() {
+    //     var url = '/conleft/in.aspx?nodeid=346';
+    //     if (document.getElementById('searchkey')) {
+    //         var keyword = $.trim($('#searchkey').val());
+    //         if (keyword == "" || keyword == "站内搜索") {
+    //             alert("请输入搜索关键字！");
+    //             document.getElementById('searchkey').focus();
+    //             return false;
+    //         }
+    //         else {
+    //             window.location.href = url + "&keyword=" + escape(keyword);
+    //         }
+    //     }
+    // }
+</script>		
+	<!--头部结束-->

@@ -1,0 +1,58 @@
+<include file="public/head" />
+  <!--内容开始-->
+ <div class="containers1">
+    <div class="second-banner">
+                <img layout="None" src="__UP__/<?php echo $banner['img'];?>" class="bannerimg1">
+                <div class="containers banNavst">
+                    <div class="containers banNavst">
+                    <ul class="num5">
+                       <foreach name="nav1" item="list">
+                        <li><a href="<?php echo U('Home/Service/services/id/'.$list['id']);?>" class="<?php echo $id==$list['id']?'active':'';?>">{$list.title}</a><i></i></li>
+                       </foreach> 
+                    </ul>
+                </div>
+                </div>
+    </div>
+        <script type="text/javascript">
+          $(".mainlevel").mouseover(function(){
+        $(this).find(".childul").slideDown("slow");
+        $(this).siblings().find(".childul").hide();
+        $('.containers1').animate({"margin-top":"0px"},200);
+              
+    });
+$('.childul').hover(function(){
+        $('.containers1').animate({"margin-top":"0px"},200);        
+    },function(){
+        $(this).fadeOut('slow');
+        $('.containers1').animate({"margin-top":"-50px"},200);       
+    });
+        </script>
+    <div class="breadBox">
+        <div class="breadBox-r">
+            <a href="javascript:;">当前位置</a><span>:</span>
+            <span></span> <a href="<?php echo U('Home/'.$list['link'].'/id/'.$list['id']);?>" Layout="None" class="dqwz_am"></a>
+        </div>
+
+    <script type="text/javascript">
+        $(".dqwz_am:last").addClass("active");
+    </script>
+    </div>
+</div>
+<div class="containers" style=" width:1000px; margin:auto;height: auto;">
+    <div class="Main2 w1100">
+                <div class="Tit">
+                   <h3 style="width:28%;border-bottom:3px solid #d30101;margin:20px auto;text-align: center;"><?php echo $sql['title'];?></h3>
+                        <div class="intro" style="font-size: 14px;color:#333;line-height: 24px;">
+                            <p class="MsoNormal" align="left" style="font-size:18px;"><?php echo html_entity_decode($sql['content']);?></p>
+                        </div>
+                </div>
+                <ul class="Case_list">
+                </ul>
+                <!-- <a href="javascript:;" class="MBtn loadMore">···&nbsp;加载更多</a> -->
+                <input type="hidden" id="hdtopicpagesize" value="1" />
+    </div>
+</div>
+
+  
+  <!--内容结束-->
+<include file="Public/end" />

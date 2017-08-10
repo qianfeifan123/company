@@ -1,0 +1,127 @@
+<include file="public/head" />
+<!--内容开始-->
+<div class="containers1">
+    <div class="second-banner">
+                <img layout="None" src="__UP__/<?php echo $banner['img'];?>" class="bannerimg1">
+                <div class="containers banNavst">
+                    <div class="containers banNavst">
+                    <ul class="num5">
+                       <foreach name="nav" item="list">
+                        <li><a href="<?php echo U('Home/'.$list['link'].'/id/'.$list['id']);?>" class="<?php echo $id==$list['id']?'active':'';?>">{$list.title}</a><i></i></li>
+                       </foreach> 
+                    </ul>
+                </div>
+                </div>
+    </div>
+        <script type="text/javascript">
+          $(".mainlevel").mouseover(function(){
+        $(this).find(".childul").slideDown("slow");
+        $(this).siblings().find(".childul").hide();
+        $('.containers1').animate({"margin-top":"0px"},200);
+              
+    });
+$('.childul').hover(function(){
+        $('.containers1').animate({"margin-top":"0px"},200);      
+    },function(){
+        $(this).fadeOut('slow');
+        $('.containers1').animate({"margin-top":"-50px"},200);       
+    });
+        </script>
+    <div class="breadBox">
+        <div class="breadBox-r">
+            <a href="javascript:;">当前位置</a><span>:</span>
+            <span></span> <a href="<?php echo U('Home/'.$list['link'].'/id/'.$list['id']);?>" Layout="None" class="dqwz_am"><?php echo $nav1['title'];?></a>
+        </div>
+
+    <script type="text/javascript">
+        $(".dqwz_am:last").addClass("active");
+    </script>
+    </div>
+</div>
+<div class="containers" style=" width:1000px; margin:auto;height: auto;">
+<div class="picBoxs phoneShowp">
+            	<ul>
+                    <foreach name="sql" item="value">
+                            
+                             <li  class="width50">
+                    	        <a href="<?php echo U('Home/Xinwen/xinwens/id/'.$value['id']);?>"><img  src="__UP__/{$value.img}" alt=""  width="490" height="210" />
+                                <div class="shadeBox">
+                        	        <dl>
+                            	        <dt>
+                                	        <span>{$value.id}</span>
+                                            <p style="display:none;"><?php echo date("Y-m-d",$value['times']);?></p>
+                                        </dt>
+                                        <dd>
+                                	        <h5><a href="">{$value.name}</a></h5>
+                                            <p style="display:none;"><?php echo str_cut(html_entity_decode($value['content']),0,150,'utf8','...');?></p>
+                                        </dd>
+                                    </dl>
+                                </div>
+                                </a>
+                            </li>
+                     </foreach>   
+                            
+
+                        
+                </ul>
+            </div>
+           
+        </div>
+    <div class="textlists">
+    	<div class="container">
+            <div class="textlists-r">
+                <ul>
+                    <foreach name="sql" item="value">
+                            <li><a href="<?php echo U('Home/Xinwen/xinwens/id/'.$value['id']);?>">{$value.name}</a><span><?php echo date("Y-m-d",$value['times']);?></span></li>
+                    </foreach>    
+                        
+                </ul>
+            </div>
+        </div>
+    </div>
+<div class="footer" style="padding:45px 40px">
+    <div class="containers" style="width:auto;padding:0 40px;">
+        <div class="footer-nav">
+          <volist name="service" id="list">
+            <dl>
+              <dt>
+                 <p><i><img alt="" /></i>{$list.title}</p>
+              </dt>
+              <dd>
+                <volist name=":pidType($list['id'])" id="list">
+                 <p>
+                   <a href="<?php echo U('Home/Service/services/id/'.$list['id']);?>">{$list.title}</a>
+                 </p>
+                </volist>
+                <?php ?> 
+              </dd>
+            </dl>
+          </volist>
+        </div>
+    </div>
+</div>
+<div class="footer-down">
+    <div id="foot_bo">
+        <div class="footer-down-l">
+            <p>
+    &copy; 2016 版权所有 艺融创软件科技有限公司 京ICP备11019727号
+</p>
+        </div>
+        <div class="footer-down-r">
+            <a href="mtyy/index3558.html?nodeid=356">联系我们</a><span>丨</span><a href="conleft/in_820.html">法律声明</a><span>丨</span>
+        </div>
+                    <div class="shares-footer shares_footer">
+                        <a href="javascript:;" id="company_weixin">官方微信</a>
+                <div class="jiathis_style_32x32">
+                    <a class="jiathis_button_fb"></a>
+                    <a class="jiathis_button_weixin"></a>
+                    <a class="jiathis_button_twitter"></a>
+                    <a class="jiathis_button_tsina"></a>
+                    <a class="jiathis_button_linkedin"></a>
+                </div>
+                <script type="text/javascript" src="../v3.jiathis.com/code/jia.js" charset="utf-8"></script>
+            </div>
+    </div>
+</div>
+</body>
+</html>

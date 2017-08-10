@@ -1,0 +1,79 @@
+<include file="public/head" />
+<!--内容开始-->
+ <div class="containers1">
+<div class="second-banner">
+        	<img layout="None" src="__UP__/<?php echo $banner['img'];?>" class="bannerimg1">
+            <div class="containers banNavst">
+                <div class="containers banNavst">
+                <ul class="num5">
+                   <foreach name="nav" item="list">
+                    <li><a href="<?php echo U('Home/'.$list['link'].'/id/'.$list['id']);?>" class="<?php echo $id==$list['id']?'active':'';?>">{$list.title}</a><i></i></li>
+                   </foreach> 
+                </ul>
+            </div>
+            </div>
+        </div>
+        <script type="text/javascript">
+          $(".mainlevel").mouseover(function(){
+		$(this).find(".childul").slideDown("slow");
+        $(this).siblings().find(".childul").hide();
+        $('.containers1').animate({"margin-top":"0px"},200);
+     	   	  
+	});
+$('.childul').hover(function(){
+        $('.containers1').animate({"margin-top":"0px"},200);		
+	},function(){
+        $(this).fadeOut('slow');
+        $('.containers1').animate({"margin-top":"-50px"},200);       
+    });
+        </script>
+        <div class="breadBox">
+            <!--<div class="breadBox-l">
+                <a href="#2">战略理念</a>
+                <a href="#2">端到端解决方案</a>
+                <a href="#2" class="active">业务覆盖</a>
+            </div>-->
+            
+
+
+<div class="breadBox-r">
+                <a href="javascript:;">当前位置</a><span>:</span>
+         <span></span> <a href="<?php echo U('Home/'.$list['link'].'/id/'.$list['id']);?>" Layout="None" class="dqwz_am">新闻中心</a>
+            </div>
+
+<script type="text/javascript">
+    $(".dqwz_am:last").addClass("active");
+</script>
+        </div>
+    </div>
+<div class="containers" style=" width:1000px; margin:auto;height: auto;">
+        <div class="ej-cont">
+            <div class="ej-cont-l noBorderR">
+                <dl>
+                    <dt><?php echo $sql['id'];?></dt> <dd><?php echo date("Y-m-d",$sql['times'])?></dd>
+                </dl>
+            </div>
+            <div class="ej-cont-r padBotm50 paddingLR60">
+                <h2><?php echo $sql['name'];?></h2><!--?xml version="1.0" encoding="utf-8" standalone="no"?-->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="Aspose.Words for .NET 6.0.0.0" />
+<title>
+</title>
+	<div class="Section1">
+	    <p style="text-align:center;margin:7.8pt 0pt;">
+		<img src="__UP__/<?php echo $sql['img'];?>" style="margin-left:-50%;" width="300" height="120" alt="" border="0" />
+	</p>
+		<p style="margin-bottom:7.8pt;margin-left:0pt;margin-right:0pt;margin-top:7.8pt;orphans:0;text-align:justify;widows:0;">
+			<span style="color:#333333;font-family:微软雅黑;font-size:10.5pt;"><?php echo html_entity_decode($sql['content']);?></span>
+		</p>	
+	</div>
+                
+            </div>
+        </div>
+    </div>
+
+    <!-- <div class="anli_img">
+	    <img src="__IMG__/xe.png">
+	</div> -->
+
+<include file="Public/end" />

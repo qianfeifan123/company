@@ -1,0 +1,261 @@
+[ 2017-08-03T16:47:05+08:00 ] ::1 /erongchuang/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002657s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001384s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001557s ]
+SQL: SHOW COLUMNS FROM `admin_fuwu` [ RunTime:0.0129s ]
+SQL: SELECT * FROM `admin_fuwu` ORDER BY id desc LIMIT 4   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `admin_xinwen` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `admin_xinwen` ORDER BY times desc LIMIT 6   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `admin_anli` [ RunTime:0.0093s ]
+SQL: SELECT * FROM `admin_anli` ORDER BY id desc LIMIT 4   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `admin_index` [ RunTime:0.0092s ]
+SQL: SELECT * FROM `admin_index` ORDER BY id asc  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `admin_guanyu` [ RunTime:0.0087s ]
+SQL: SELECT * FROM `admin_guanyu`  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `admin_lunbo` [ RunTime:0.0092s ]
+SQL: SELECT * FROM `admin_lunbo` ORDER BY id desc LIMIT 3   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `admin_nav` [ RunTime:0.0107s ]
+SQL: SELECT * FROM `admin_nav` WHERE ( status=1 and pid=0 ) ORDER BY id asc  [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `admin_service` [ RunTime:0.0119s ]
+SQL: SELECT * FROM `admin_service` WHERE ( status=1 ) ORDER BY id asc LIMIT 0,5   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `admin_service` WHERE ( status=1 ) ORDER BY id asc LIMIT 0,1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `admin_service` WHERE ( status=1 ) ORDER BY id asc  [ RunTime:0.0032s ]
+SQL: SELECT * FROM `admin_service` WHERE ( status=1 ) ORDER BY id asc LIMIT 1,5   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined offset: 2 C:\wamp\www\erongchuang\Application\Home\Controller\IndexController.class.php 第 50 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\erongchuang\Application\Home\Controller\IndexController.class.php 第 50 行.
+SQL: SELECT * FROM `admin_service` WHERE ( status=1 ) ORDER BY id asc LIMIT 0,1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined offset: 2 C:\wamp\www\erongchuang\Application\Home\Controller\IndexController.class.php 第 61 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\erongchuang\Application\Home\Controller\IndexController.class.php 第 61 行.
+SQL: SHOW COLUMNS FROM `admin_force` [ RunTime:0.0111s ]
+SQL: SELECT * FROM `admin_force` WHERE ( status=1 ) ORDER BY id asc  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `admin_info` [ RunTime:0.0097s ]
+SQL: SELECT * FROM `admin_info` ORDER BY id asc LIMIT 0,1   [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000662s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000917s ]
+SQL: SELECT * FROM `admin_service` WHERE `pid` = 1 ORDER BY id desc  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `admin_service` WHERE `pid` = 2 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `admin_service` WHERE `pid` = 3 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `admin_service` WHERE `pid` = 4 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `admin_service` WHERE `pid` = 5 ORDER BY id desc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `admin_service` WHERE `pid` = 20 ORDER BY id desc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `admin_service` WHERE `pid` = 21 ORDER BY id desc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `admin_service` WHERE `pid` = 22 ORDER BY id desc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `admin_service` WHERE `pid` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `admin_service` WHERE `pid` = 2 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `admin_service` WHERE `pid` = 16 ORDER BY id desc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `admin_service` WHERE `pid` = 15 ORDER BY id desc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `admin_service` WHERE `pid` = 14 ORDER BY id desc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `admin_service` WHERE `pid` = 13 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `admin_service` WHERE `pid` = 12 ORDER BY id desc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `admin_service` WHERE `pid` = 3 ORDER BY id desc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `admin_service` WHERE `pid` = 18 ORDER BY id desc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `admin_service` WHERE `pid` = 17 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `admin_service` WHERE `pid` = 4 ORDER BY id desc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `admin_service` WHERE `pid` = 66 ORDER BY id desc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `admin_service` WHERE `pid` = 65 ORDER BY id desc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `admin_service` WHERE `pid` = 19 ORDER BY id desc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `admin_service` WHERE `pid` = 5 ORDER BY id desc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `admin_service` WHERE `pid` = 77 ORDER BY id desc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `admin_service` WHERE `pid` = 76 ORDER BY id desc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `admin_service` WHERE `pid` = 75 ORDER BY id desc  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: content C:\wamp\www\erongchuang\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 267 行.
+NOTIC: [8] Undefined index: content C:\wamp\www\erongchuang\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 267 行.
+NOTIC: [8] Undefined index: content C:\wamp\www\erongchuang\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 267 行.
+NOTIC: [8] Undefined index: content C:\wamp\www\erongchuang\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 267 行.
+NOTIC: [8] Undefined index: content C:\wamp\www\erongchuang\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 267 行.
+SQL: SELECT * FROM `admin_service` WHERE `pid` = 1 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `admin_service` WHERE `pid` = 2 ORDER BY id desc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `admin_service` WHERE `pid` = 3 ORDER BY id desc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `admin_service` WHERE `pid` = 4 ORDER BY id desc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `admin_service` WHERE `pid` = 5 ORDER BY id desc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `admin_service` WHERE `pid` = 20 ORDER BY id desc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `admin_service` WHERE `pid` = 21 ORDER BY id desc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `admin_service` WHERE `pid` = 22 ORDER BY id desc  [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.112782s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.113007s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006872s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001924s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002061s ]
+
+[ 2017-08-03T16:47:06+08:00 ] ::1 /erongchuang/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000091s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000996s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002194s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002413s ]
+SQL: SHOW COLUMNS FROM `admin_fuwu` [ RunTime:0.1284s ]
+SQL: SELECT * FROM `admin_fuwu` ORDER BY id desc LIMIT 4   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `admin_xinwen` [ RunTime:0.0086s ]
+SQL: SELECT * FROM `admin_xinwen` ORDER BY times desc LIMIT 6   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `admin_anli` [ RunTime:0.0074s ]
+SQL: SELECT * FROM `admin_anli` ORDER BY id desc LIMIT 4   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `admin_index` [ RunTime:0.0065s ]
+SQL: SELECT * FROM `admin_index` ORDER BY id asc  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `admin_guanyu` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `admin_guanyu`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `admin_lunbo` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `admin_lunbo` ORDER BY id desc LIMIT 3   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `admin_nav` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `admin_nav` WHERE ( status=1 and pid=0 ) ORDER BY id asc  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `admin_service` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `admin_service` WHERE ( status=1 ) ORDER BY id asc LIMIT 0,5   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `admin_service` WHERE ( status=1 ) ORDER BY id asc LIMIT 0,1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `admin_service` WHERE ( status=1 ) ORDER BY id asc  [ RunTime:0.0015s ]
+SQL: SELECT * FROM `admin_service` WHERE ( status=1 ) ORDER BY id asc LIMIT 1,5   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined offset: 2 C:\wamp\www\erongchuang\Application\Home\Controller\IndexController.class.php 第 50 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\erongchuang\Application\Home\Controller\IndexController.class.php 第 50 行.
+SQL: SELECT * FROM `admin_service` WHERE ( status=1 ) ORDER BY id asc LIMIT 0,1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined offset: 2 C:\wamp\www\erongchuang\Application\Home\Controller\IndexController.class.php 第 61 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\erongchuang\Application\Home\Controller\IndexController.class.php 第 61 行.
+SQL: SHOW COLUMNS FROM `admin_force` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `admin_force` WHERE ( status=1 ) ORDER BY id asc  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `admin_info` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `admin_info` ORDER BY id asc LIMIT 0,1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000305s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000437s ]
+SQL: SELECT * FROM `admin_service` WHERE `pid` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `admin_service` WHERE `pid` = 2 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `admin_service` WHERE `pid` = 3 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `admin_service` WHERE `pid` = 4 ORDER BY id desc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `admin_service` WHERE `pid` = 5 ORDER BY id desc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `admin_service` WHERE `pid` = 20 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `admin_service` WHERE `pid` = 21 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `admin_service` WHERE `pid` = 22 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `admin_service` WHERE `pid` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `admin_service` WHERE `pid` = 2 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `admin_service` WHERE `pid` = 16 ORDER BY id desc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `admin_service` WHERE `pid` = 15 ORDER BY id desc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `admin_service` WHERE `pid` = 14 ORDER BY id desc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `admin_service` WHERE `pid` = 13 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `admin_service` WHERE `pid` = 12 ORDER BY id desc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `admin_service` WHERE `pid` = 3 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `admin_service` WHERE `pid` = 18 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `admin_service` WHERE `pid` = 17 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `admin_service` WHERE `pid` = 4 ORDER BY id desc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `admin_service` WHERE `pid` = 66 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `admin_service` WHERE `pid` = 65 ORDER BY id desc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `admin_service` WHERE `pid` = 19 ORDER BY id desc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `admin_service` WHERE `pid` = 5 ORDER BY id desc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `admin_service` WHERE `pid` = 77 ORDER BY id desc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `admin_service` WHERE `pid` = 76 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `admin_service` WHERE `pid` = 75 ORDER BY id desc  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: content C:\wamp\www\erongchuang\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 267 行.
+NOTIC: [8] Undefined index: content C:\wamp\www\erongchuang\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 267 行.
+NOTIC: [8] Undefined index: content C:\wamp\www\erongchuang\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 267 行.
+NOTIC: [8] Undefined index: content C:\wamp\www\erongchuang\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 267 行.
+NOTIC: [8] Undefined index: content C:\wamp\www\erongchuang\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 267 行.
+SQL: SELECT * FROM `admin_service` WHERE `pid` = 1 ORDER BY id desc  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `admin_service` WHERE `pid` = 2 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `admin_service` WHERE `pid` = 3 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `admin_service` WHERE `pid` = 4 ORDER BY id desc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `admin_service` WHERE `pid` = 5 ORDER BY id desc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `admin_service` WHERE `pid` = 20 ORDER BY id desc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `admin_service` WHERE `pid` = 21 ORDER BY id desc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `admin_service` WHERE `pid` = 22 ORDER BY id desc  [ RunTime:0.0004s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.091570s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.091726s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000829s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000945s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000991s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001110s ]
+
+[ 2017-08-03T18:12:19+08:00 ] ::1 /erongchuang/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000833s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001520s ]
+SQL: SHOW COLUMNS FROM `admin_fuwu` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `admin_fuwu` ORDER BY id desc LIMIT 4   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `admin_xinwen` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `admin_xinwen` ORDER BY times desc LIMIT 6   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `admin_anli` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `admin_anli` ORDER BY id desc LIMIT 4   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `admin_index` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `admin_index` ORDER BY id asc  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `admin_guanyu` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `admin_guanyu`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `admin_lunbo` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `admin_lunbo` ORDER BY id desc LIMIT 3   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `admin_nav` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `admin_nav` WHERE ( status=1 and pid=0 ) ORDER BY id asc  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `admin_service` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `admin_service` WHERE ( status=1 ) ORDER BY id asc LIMIT 0,5   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `admin_service` WHERE ( status=1 ) ORDER BY id asc LIMIT 0,1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `admin_service` WHERE ( status=1 ) ORDER BY id asc  [ RunTime:0.0019s ]
+SQL: SELECT * FROM `admin_service` WHERE ( status=1 ) ORDER BY id asc LIMIT 1,5   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined offset: 2 C:\wamp\www\erongchuang\Application\Home\Controller\IndexController.class.php 第 50 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\erongchuang\Application\Home\Controller\IndexController.class.php 第 50 行.
+SQL: SELECT * FROM `admin_service` WHERE ( status=1 ) ORDER BY id asc LIMIT 0,1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined offset: 2 C:\wamp\www\erongchuang\Application\Home\Controller\IndexController.class.php 第 61 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\erongchuang\Application\Home\Controller\IndexController.class.php 第 61 行.
+SQL: SHOW COLUMNS FROM `admin_force` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `admin_force` WHERE ( status=1 ) ORDER BY id asc  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `admin_info` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `admin_info` ORDER BY id asc LIMIT 0,1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000326s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000482s ]
+SQL: SELECT * FROM `admin_service` WHERE `pid` = 1 ORDER BY id desc  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `admin_service` WHERE `pid` = 2 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `admin_service` WHERE `pid` = 3 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `admin_service` WHERE `pid` = 4 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `admin_service` WHERE `pid` = 5 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `admin_service` WHERE `pid` = 20 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `admin_service` WHERE `pid` = 21 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `admin_service` WHERE `pid` = 22 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `admin_service` WHERE `pid` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `admin_service` WHERE `pid` = 2 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `admin_service` WHERE `pid` = 16 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `admin_service` WHERE `pid` = 15 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `admin_service` WHERE `pid` = 14 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `admin_service` WHERE `pid` = 13 ORDER BY id desc  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `admin_service` WHERE `pid` = 12 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `admin_service` WHERE `pid` = 3 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `admin_service` WHERE `pid` = 18 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `admin_service` WHERE `pid` = 17 ORDER BY id desc  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `admin_service` WHERE `pid` = 4 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `admin_service` WHERE `pid` = 66 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `admin_service` WHERE `pid` = 65 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `admin_service` WHERE `pid` = 19 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `admin_service` WHERE `pid` = 5 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `admin_service` WHERE `pid` = 77 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `admin_service` WHERE `pid` = 76 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `admin_service` WHERE `pid` = 75 ORDER BY id desc  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: content C:\wamp\www\erongchuang\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 267 行.
+NOTIC: [8] Undefined index: content C:\wamp\www\erongchuang\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 267 行.
+NOTIC: [8] Undefined index: content C:\wamp\www\erongchuang\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 267 行.
+NOTIC: [8] Undefined index: content C:\wamp\www\erongchuang\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 267 行.
+NOTIC: [8] Undefined index: content C:\wamp\www\erongchuang\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 267 行.
+SQL: SELECT * FROM `admin_service` WHERE `pid` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `admin_service` WHERE `pid` = 2 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `admin_service` WHERE `pid` = 3 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `admin_service` WHERE `pid` = 4 ORDER BY id desc  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `admin_service` WHERE `pid` = 5 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `admin_service` WHERE `pid` = 20 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `admin_service` WHERE `pid` = 21 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `admin_service` WHERE `pid` = 22 ORDER BY id desc  [ RunTime:0.0005s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.110895s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.111066s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001048s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001198s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001442s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001695s ]
+

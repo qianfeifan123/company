@@ -1,0 +1,57 @@
+<include file="public/headr" />
+  <!-- Start: Content -->
+  <section id="content">
+    <div id="topbar" class="affix">
+      <ol class="breadcrumb">
+        <li class="active"><a href="#"><span class="glyphicon glyphicon-home"></span></a></li>
+      </ol>
+    </div>
+    <div class="container">
+        <div class="panel-heading">
+                  <div class="panel-title">公司信息</div>
+                  <a href="<?php echo U("Company/edit"); ?>" class="btn btn-info btn-gradient pull-right"><span class="glyphicons glyphicon-plus"></span>修改</a>
+                </div>
+		<div class="col-md-9">
+			<div id="docs-content">
+				<h2 class="page-header margin-top-none">公司信息</h2>
+				<table class="table">
+				    <tr>
+					<td>公司logo：<img src="__UP__/<?php echo $list['logo'];?>" width="180" height="60"></td>
+					</tr>
+					<tr>
+					<td>公司名：<?php echo $list['name'];?></td>
+					</tr>
+					<tr>
+					<td >联系人:<?php echo $list['admin'];?></td>
+					
+					</tr>
+					<tr>
+					<td>地址:<?php echo $list['address'];?></td>
+					
+					</tr>
+					<tr>
+					<td>电话:<?php echo $list['tel'];?></td>
+					
+					</tr>
+					<tr>
+					<td>qq:<?php echo $list['qq'];?></td>
+					
+					</tr>
+					<tr>
+					<td>邮箱:<?php echo $list['email'];?></td>
+					
+					</tr>
+					<tr>
+					<td>邮编:<?php echo $list['mail'];?></td>
+					
+					</tr>
+				</table>
+			</div>
+		</div>
+    </div> 
+  </section>
+  <!-- End: Content --> 
+</div>
+<!-- End: Main --></body>
+
+</html>

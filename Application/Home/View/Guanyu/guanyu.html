@@ -1,0 +1,117 @@
+<include file="public/head" />
+<!--内容开始-->
+<div class="containers1">
+    <div class="second-banner">
+                <img layout="None" src="__UP__/<?php echo $banner['img'];?>" class="bannerimg1">
+                <div class="containers banNavst">
+                    <div class="containers banNavst">
+                    <ul class="num5">
+                       <foreach name="nav" item="list">
+                        <li><a href="<?php echo U('Home/'.$list['link'].'/id/'.$list['id']);?>" class="<?php echo $id==$list['id']?'active':'';?>">{$list.title}</a><i></i></li>
+                       </foreach> 
+                    </ul>
+                </div>
+                </div>
+    </div>
+        <script type="text/javascript">
+          $(".mainlevel").mouseover(function(){
+        $(this).find(".childul").slideDown("slow");
+        $(this).siblings().find(".childul").hide();
+        $('.containers1').animate({"margin-top":"0px"},200);
+              
+    });
+$('.childul').hover(function(){
+        $('.containers1').animate({"margin-top":"0px"},200);      
+    },function(){
+        $(this).fadeOut('slow');
+        $('.containers1').animate({"margin-top":"-50px"},200);       
+    });
+        </script>
+    <div class="breadBox">
+        <div class="breadBox-r">
+            <a href="javascript:;">当前位置</a><span>:</span>
+            <span></span> <a href="<?php echo U('Home/'.$list['link'].'/id/'.$list['id']);?>" Layout="None" class="dqwz_am"><?php echo $nav1['title'];?></a>
+        </div>
+
+    <script type="text/javascript">
+        $(".dqwz_am:last").addClass("active");
+    </script>
+    </div>
+</div>
+<div class="container2" style=" width:1000px; margin:auto;height: auto;">
+        <div class="about-colm01 paddingLR100">
+          <foreach name="sql" item="list">
+            <p style="text-align:justify;background:white;vertical-align:baseline;">
+                <strong style="font-size:24px;font-family:'Microsoft YaHei';line-height:1.5;">{$list['name']}</strong> 
+            </p>
+            <p style="margin-left:0cm;text-align:justify;background:white;vertical-align:baseline;">
+                <span style="font-family:'Microsoft YaHei';font-size:14px;"><?php echo html_entity_decode($list['content']);?></span> 
+            </p>
+          </foreach>  
+        </div>
+        <div class="core_nenglis">
+        <h3>核心能力
+                </h3>
+        <ul class="core_list hexinnengli">
+            <foreach name="force" item="list">
+                <li class="prz">
+                    <a href="" class="pic img-container prz">
+                      <img class="pic img-container prz" src="__UP__/{$list.img}" data-scale="best-fill" />
+                    </a>
+                    <div class="intro">
+                        <h4>{$list.title}</h4>
+                        <div class="xq">{$list.content}
+                        </div>
+                    </div>
+                </li>
+            </foreach>    
+        </ul>
+    </div>
+    </div>
+<!--内容结束-->
+    <div class="footer2" style="padding:45px 40px">
+    <div class="containers" style="width:auto;padding:0 40px;">
+        <div class="footer-nav">
+          <volist name="service" id="list">
+            <dl>
+              <dt>
+                 <p><i><img alt="" /></i>{$list.title}</p>
+              </dt>
+              <dd>
+                <volist name=":pidType($list['id'])" id="list">
+                 <p>
+                   <a href="<?php echo U('Home/Service/services/id/'.$list['id']);?>">{$list.title}</a>
+                 </p>
+                </volist>
+                <?php ?> 
+              </dd>
+            </dl>
+          </volist>
+        </div>
+    </div>
+</div>
+<div class="footer-down">
+    <div id="foot_bo">
+        <div class="footer-down-l">
+            <p>
+    &copy; 2016 版权所有 软通动力信息技术（集团）有限公司 京ICP备11019727号
+</p>
+        </div>
+        <div class="footer-down-r">
+            <a href="mtyy/index3558.html?nodeid=356">联系我们</a><span>丨</span><a href="conleft/in_820.html">法律声明</a><span>丨</span>
+        </div>
+                    <div class="shares-footer shares_footer">
+                        <a href="javascript:;" id="company_weixin">官方微信</a>
+                <div class="jiathis_style_32x32">
+                    <a class="jiathis_button_fb"></a>
+                    <a class="jiathis_button_weixin"></a>
+                    <a class="jiathis_button_twitter"></a>
+                    <a class="jiathis_button_tsina"></a>
+                    <a class="jiathis_button_linkedin"></a>
+                </div>
+                <script type="text/javascript" src="../v3.jiathis.com/code/jia.js" charset="utf-8"></script>
+            </div>
+    </div>
+</div>
+</body>
+</html>

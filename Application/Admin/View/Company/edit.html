@@ -1,0 +1,94 @@
+<include file="public/headr" />
+    <!-- Start: Content -->
+    <section id="content">
+        <div id="topbar" class="affix">
+            <ol class="breadcrumb">
+                <li><a href="<?php echo U("Company/index");?>"><span class="glyphicon glyphicon-home"></span></a></li>
+                <li class="active">修改</li>
+            </ol>
+        </div>
+        <div class="container">
+
+            <div class="row">
+                <div class="col-md-10 col-lg-8 center-column">
+                    <form action="#" method="post" class="cmxform" enctype="multipart/form-data">
+                        <div class="panel">
+                            <div class="panel-heading">
+                                <div class="panel-title">编辑</div>
+                                <div class="panel-btns pull-right margin-left">
+                                    <a href="<?php echo U("Company/index");?>"
+                                       class="btn btn-default btn-gradient dropdown-toggle"><span
+                                            class="glyphicon glyphicon-chevron-left"></span></a>
+                                </div>
+                            </div>
+                            <div class="panel-body">
+                                <div class="col-md-7">
+                                    <!-- <div class="form-group">
+                                        <div class="input-group"><span class="input-group-addon">分类</span>
+                                            <select name="" id="standard-list1" class="form-control">
+                                                <option>请选择</option>
+                                                <option>科技</option>
+                                                <option>文化</option>
+                                                <option>生活</option>
+                                            </select>
+                                        </div>
+                                    </div> -->
+                                    <div class="form-group">
+                                        <div class="input-group"><span class="input-group-addon">公司名</span>
+                                            <input type="text" name="name" value="<?php echo $sql["name"];?>"
+                                                   class="form-control">
+                                        </div>
+                                        <div class="input-group"><span class="input-group-addon">图片</span>
+                                           <input type="file" name="logo" value="" class="form-control">
+                                        </div>
+                                        <div class="input-group"><span class="input-group-addon">联系人</span>
+                                            <input type="text" name="admin" value="<?php echo $sql["admin"];?>"
+                                                   class="form-control">
+                                        </div>
+										<div class="input-group"><span class="input-group-addon">电话</span>
+                                            <input type="text" name="tel" value="<?php echo $sql["tel"];?>"
+                                                   class="form-control">
+                                        </div>
+										<div class="input-group"><span class="input-group-addon">邮箱</span>
+                                            <input type="text" name="email" value="<?php echo $sql["email"];?>"
+                                                   class="form-control">
+                                        </div>
+                                        <div class="input-group"><span class="input-group-addon">地址</span>
+                                            <input type="text" name="address" value="<?php echo $sql["address"];?>"
+                                                   class="form-control">
+                                        </div>
+                                        <div class="input-group"><span class="input-group-addon">qq</span>
+                                            <input type="text" name="qq" value="<?php echo $sql["qq"];?>"
+                                                   class="form-control">
+                                        </div>
+                                        <div class="input-group"><span class="input-group-addon">邮编</span>
+                                            <input type="text" name="mail" value="<?php echo $sql["mail"];?>"
+                                                   class="form-control">
+                                        </div>
+                                    </div>
+                                   
+                                </div>
+                              <!--   <div class="form-group col-md-12">
+                                    <script id="editor" name="password" type="text/plain" style="width:100%;height:500px;">
+									<p><?php echo $sql["content"];?></p>
+									</script>
+                                </div> -->
+                                <div class="col-md-7">
+                                    <div class="form-group">
+                                        <input type="submit" value="提交" class="submit btn btn-blue" name="dosubmit">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+    </section>
+    <!-- End: Content -->
+</div>
+<!-- End: Main -->
+
+
+</body>
+
+</html>

@@ -1,0 +1,78 @@
+<include file="public/headr" />
+    <!-- Start: Content -->
+    <section id="content">
+        <div id="topbar" class="affix">
+            <ol class="breadcrumb">
+                <li><a href="<?php echo U("Force/index");?>"><span class="glyphicon glyphicon-home"></span></a></li>
+                <li class="active">修改</li>
+            </ol>
+        </div>
+        <div class="container">
+
+            <div class="row">
+                <div class="col-md-10 col-lg-8 center-column">
+                    <form action="#" method="post" class="cmxform" enctype="multipart/form-data">
+                        <div class="panel">
+                            <div class="panel-heading">
+                                <div class="panel-title">编辑</div>
+                                <div class="panel-btns pull-right margin-left">
+                                    <a href="<?php echo U("Force/index");?>"
+                                       class="btn btn-default btn-gradient dropdown-toggle"><span
+                                            class="glyphicon glyphicon-chevron-left"></span></a>
+                                </div>
+                            </div>
+                            <div class="panel-body">
+                                <div class="col-md-7">
+                                    <!-- <div class="form-group">
+                                        <div class="input-group"><span class="input-group-addon">分类</span>
+                                            <select name="" id="standard-list1" class="form-control">
+                                                <option>请选择</option>
+                                                <option>科技</option>
+                                                <option>文化</option>
+                                                <option>生活</option>
+                                            </select>
+                                        </div>
+                                    </div> -->
+                                    <div class="form-group">
+                                        <div class="input-group"><span class="input-group-addon">标题</span>
+                                            <input type="text" name="title" value="<?php echo $sql["title"];?>"
+                                                   class="form-control">
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="input-group"><span class="input-group-addon">图片</span>
+                                           <input type="file" name="tupian" value="" class="form-control">
+                                           <img src="__UP__/{$sql.img}" width="100px" height="100px">
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="input-group"><span class="input-group-addon">内容</span>
+                                            <input type="text" name="content" value="<?php echo $sql["content"];?>"
+                                                   class="form-control">
+                                        </div>
+                                    </div>
+       
+                                    
+                                    
+                                   
+                                </div>
+                               
+                                <div class="col-md-7">
+                                    <div class="form-group">
+                                        <input type="submit" value="提交" class="submit btn btn-blue" name="dosubmit">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+    </section>
+    <!-- End: Content -->
+</div>
+<!-- End: Main -->
+
+
+</body>
+
+</html>

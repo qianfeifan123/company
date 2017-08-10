@@ -1,0 +1,5 @@
+[ 2017-04-17T11:05:28+08:00 ] ::1 /class18_tp/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000767s ]
+

@@ -1,0 +1,75 @@
+	<!--尾部开始-->
+	<!-- <div class="index_o">
+	 <ul class="index_orve">
+	    <li class="index_orver">
+		    <div class="index_orver_box">
+			    <img src="__IMG__/in.gif"/>
+			</div>
+		</li>
+		<li class="index_orver">
+		     <div class="index_orver_2">
+		    <strong>联系我们</strong>
+			<span>电话：18025352799(谢生)</span>
+			<span>地址：深圳市宝安区前进二路华盛辉B座西307</span>
+			<span>QQ：445299018</span>
+		    </div>
+		</li>
+		<li class="index_orver_3">
+		   <div class="index_orver_ev">
+		        <img src="__IMG__/atten3.jpg">
+				<p>扫一扫，关注我们！</p>
+		   </div>
+		</li>
+	    <div class="clear"></div>
+	 </ul>
+	</div>
+	<div class="end">
+	    <p>Copyright &copy; 2009-2016 erongchuang. 深圳市艺融创科技有限公司 版权所有 粤ICP备15037018号</p>
+	</div> -->
+	<!--尾部结束-->
+	<div class="footer" style="padding:45px 40px">
+    <div class="containers" style="width:auto;padding:0 40px;">
+        <div class="footer-nav">
+          <volist name="service" id="list">
+            <dl>
+              <dt>
+                 <p><i><img alt="" /></i>{$list.title}</p>
+              </dt>
+              <dd>
+                <volist name=":pidType($list['id'])" id="list">
+                 <p>
+                   <a href="<?php echo U('Home/Service/services/id/'.$list['id']);?>">{$list.title}</a>
+                 </p>
+                </volist>
+                <?php ?> 
+              </dd>
+            </dl>
+          </volist>
+        </div>
+    </div>
+</div>
+<div class="footer-down">
+    <div id="foot_bo">
+        <div class="footer-down-l">
+            <p>
+	&copy; 2016 版权所有 艺融创软件科技有限公司 京ICP备11019727号
+</p>
+        </div>
+        <div class="footer-down-r">
+            <a href="mtyy/index3558.html?nodeid=356">联系我们</a><span>丨</span><a href="conleft/in_820.html">法律声明</a><span>丨</span>
+        </div>
+                    <div class="shares-footer shares_footer">
+                        <a href="javascript:;" id="company_weixin">官方微信</a>
+                <div class="jiathis_style_32x32">
+                    <a class="jiathis_button_fb"></a>
+                    <a class="jiathis_button_weixin"></a>
+                    <a class="jiathis_button_twitter"></a>
+                    <a class="jiathis_button_tsina"></a>
+                    <a class="jiathis_button_linkedin"></a>
+                </div>
+                <script type="text/javascript" src="../v3.jiathis.com/code/jia.js" charset="utf-8"></script>
+            </div>
+    </div>
+</div>
+</body>
+</html>

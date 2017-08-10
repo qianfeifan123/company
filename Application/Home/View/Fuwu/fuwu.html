@@ -1,0 +1,36 @@
+<include file="public/head" />
+  <!--内容开始-->
+     <div class="anli_img">
+	    <img src="__IMG__/to.png">
+	</div>
+	<div class="anli_content">
+	    <div class="anli_content_top">
+		    <p><span>服.</span>服务内容</p>
+		</div>
+		<div class="fuwu_content">
+		    <div class="fuwu_content_top">
+               <foreach name="sql" item="value">			
+		        <div class="fuwu_content_top_fu">
+                    <div class="fuwu_img"><img src="__UP__/{$value.img}"></div>
+                    <strong>{$value.name}</strong>
+                    <p><?php echo html_entity_decode($value['content']);?></p>				
+		        </div>
+				</foreach>
+				<div class="clear"></div>
+		    </div>
+			<hr color="#ccc"/>
+			<div class="fuwu_guanli">
+			    <h3>项目规范化管理</h3>
+				<h5>项目经理-策划</h5>
+				<p>项目经理-策划&nbsp;-->&nbsp;策划方案和报价&nbsp;-->&nbsp;方案及确认报价&nbsp;-->&nbsp;制定项目排期表&nbsp;-->&nbsp;合同签订付定金 ；</p>
+				<h5>项目执行-验收</h5>
+				<p>设计稿初步方案&nbsp;-->&nbsp;主设计稿确定&nbsp;-->&nbsp;其他页面设计&nbsp;-->&nbsp;设计稿&功能确认&nbsp;-->&nbsp;程序开发制作&nbsp;-->&nbsp;功能测试&验收&nbsp;-->&nbsp;支付尾款&项目上线 ；</p>
+			</div>
+			<p class="fuwu_n">Next 下一个服务</p>
+			<P class="fuwu_nn">我们的价值在随时掌握瞬息万变的信息世界，</P>
+			<P class="fuwu_nn">我们不断地思考未来，以帮助您在互联网保持领先。敬请期待！</P>
+			
+		</div>
+	</div>
+  <!--内容结束-->
+<include file="Public/end" />

@@ -1,0 +1,95 @@
+<include file="public/head" />
+<!--内容开始-->
+ <div class="containers1">
+<div class="second-banner">
+            <img layout="None" src="__UP__/<?php echo $banner['img'];?>" class="bannerimg1">
+            <div class="containers banNavst">
+                <div class="containers banNavst">
+                <ul class="num5">
+                   <foreach name="nav" item="list">
+                    <li><a href="<?php echo U('Home/'.$list['link'].'/id/'.$list['id']);?>" class="<?php echo $id==$list['id']?'active':'';?>">{$list.title}</a><i></i></li>
+                   </foreach> 
+                </ul>
+            </div>
+            </div>
+        </div>
+        <script type="text/javascript">
+          $(".mainlevel").mouseover(function(){
+        $(this).find(".childul").slideDown("slow");
+        $(this).siblings().find(".childul").hide();
+        $('.containers1').animate({"margin-top":"0px"},200);
+              
+    });
+$('.childul').hover(function(){
+        $('.containers1').animate({"margin-top":"0px"},200);        
+    },function(){
+        $(this).fadeOut('slow');
+        $('.containers1').animate({"margin-top":"-50px"},200);       
+    });
+        </script>
+        <div class="breadBox">
+            <!--<div class="breadBox-l">
+                <a href="#2">战略理念</a>
+                <a href="#2">端到端解决方案</a>
+                <a href="#2" class="active">业务覆盖</a>
+            </div>-->
+            
+
+
+<div class="breadBox-r">
+                <a href="javascript:;">当前位置</a><span>:</span>
+         <span></span> <a href="<?php echo U('Home/'.$list['link'].'/id/'.$list['id']);?>" Layout="None" class="dqwz_am">新闻中心</a>
+            </div>
+
+<script type="text/javascript">
+    $(".dqwz_am:last").addClass("active");
+</script>
+</div>
+</div>
+<div class="containers" style=" width:1000px; margin:auto;height: auto;">
+        <div class="ej-cont">
+            <div class="picBoxs phoneShowp">
+                <ul>
+                   <foreach name="sql" item="value">
+                            
+                             <li  class="width50">
+                                <a href="<?php echo U('Home/Xinwen/xinwens/id/'.$value['id']);?>"><img  src="__UP__/{$value.img}" alt=""  width="490" height="210" />
+                                <div class="shadeBox">
+                                    <dl>
+                                        <dt>
+                                            <span>{$value.id}</span>
+                                            <p style="display:none;"><?php echo date("Y-m-d",$value['times']);?></p>
+                                        </dt>
+                                        <dd>
+                                            <h5><a href="">{$value.name}</a></h5>
+                                            <p style="display:none;"><?php echo html_entity_decode($sql['content']);?></p>
+                                        </dd>
+                                    </dl>
+                                </div>
+                                </a>
+                            </li>
+                     </foreach>
+                        
+                </ul>
+            </div>
+        </div>
+    </div>        
+<div class="textlists">
+        <div class="container">
+            <div class="textlists-r">
+                <ul>
+                    <foreach name="sql" item="value">
+                            <li><a href="<?php echo U('Home/Xinwen/xinwens/id/'.$value['id']);?>">{$value.name}</a><span><?php echo date("Y-m-d",$value['times']);?></span></li>
+                    </foreach>    
+                        
+                </ul>
+            </div>
+        </div>
+    </div>           
+
+
+    <!-- <div class="anli_img">
+        <img src="__IMG__/xe.png">
+    </div> -->
+
+<include file="Public/end" />

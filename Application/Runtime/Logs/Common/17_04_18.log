@@ -1,0 +1,132 @@
+[ 2017-04-18T09:25:32+08:00 ] ::1 /4-17/class18_tp/index.php/css/bootstrap.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000929s ]
+ERR: 无法加载模块:Css
+
+[ 2017-04-18T09:25:32+08:00 ] ::1 /4-17/class18_tp/index.php/css/plugins.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001087s ]
+ERR: 无法加载模块:Css
+
+[ 2017-04-18T09:25:32+08:00 ] ::1 /4-17/class18_tp/index.php/css/glyphicons.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001056s ]
+ERR: 无法加载模块:Css
+
+[ 2017-04-18T09:25:32+08:00 ] ::1 /4-17/class18_tp/index.php/css/theme.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001116s ]
+ERR: 无法加载模块:Css
+
+[ 2017-04-18T09:25:32+08:00 ] ::1 /4-17/class18_tp/index.php/css/responsive.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000917s ]
+ERR: 无法加载模块:Css
+
+[ 2017-04-18T09:25:32+08:00 ] ::1 /4-17/class18_tp/index.php/css/boxed.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000898s ]
+ERR: 无法加载模块:Css
+
+[ 2017-04-18T09:25:32+08:00 ] ::1 /4-17/class18_tp/index.php/css/custom.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000965s ]
+ERR: 无法加载模块:Css
+
+[ 2017-04-18T09:25:32+08:00 ] ::1 /4-17/class18_tp/index.php/js/jquery-ui.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000921s ]
+ERR: 无法加载模块:Js
+
+[ 2017-04-18T09:25:32+08:00 ] ::1 /4-17/class18_tp/index.php/js/jquery.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000135s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001420s ]
+ERR: 无法加载模块:Js
+
+[ 2017-04-18T09:25:32+08:00 ] ::1 /4-17/class18_tp/index.php/css/pages.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000863s ]
+ERR: 无法加载模块:Css
+
+[ 2017-04-18T09:25:32+08:00 ] ::1 /4-17/class18_tp/index.php/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001468s ]
+ERR: 无法加载模块:Js
+
+[ 2017-04-18T09:25:32+08:00 ] ::1 /4-17/class18_tp/index.php/js/uniform.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000899s ]
+ERR: 无法加载模块:Js
+
+[ 2017-04-18T09:25:32+08:00 ] ::1 /4-17/class18_tp/index.php/css/demo.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001162s ]
+ERR: 无法加载模块:Css
+
+[ 2017-04-18T09:25:32+08:00 ] ::1 /4-17/class18_tp/index.php/js/custom.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001070s ]
+ERR: 无法加载模块:Js
+
+[ 2017-04-18T09:25:32+08:00 ] ::1 /4-17/class18_tp/index.php/js/main.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000632s ]
+ERR: 无法加载模块:Js
+
+[ 2017-04-18T09:25:32+08:00 ] ::1 /4-17/class18_tp/index.php/js/jquery-ui.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000891s ]
+ERR: 无法加载模块:Js
+
+[ 2017-04-18T09:25:32+08:00 ] ::1 /4-17/class18_tp/index.php/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000845s ]
+ERR: 无法加载模块:Images
+
+[ 2017-04-18T09:25:32+08:00 ] ::1 /4-17/class18_tp/index.php/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000691s ]
+ERR: 无法加载模块:Js
+
+[ 2017-04-18T09:25:32+08:00 ] ::1 /4-17/class18_tp/index.php/js/uniform.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000086s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001174s ]
+ERR: 无法加载模块:Js
+
+[ 2017-04-18T09:25:32+08:00 ] ::1 /4-17/class18_tp/index.php/js/main.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000559s ]
+ERR: 无法加载模块:Js
+
+[ 2017-04-18T09:25:32+08:00 ] ::1 /4-17/class18_tp/index.php/js/custom.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000564s ]
+ERR: 无法加载模块:Js
+
+[ 2017-04-18T09:25:32+08:00 ] ::1 /4-17/class18_tp/index.php/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001293s ]
+ERR: 无法加载模块:Images
+
